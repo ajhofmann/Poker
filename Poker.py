@@ -279,7 +279,6 @@ def drawCards():
     resultBut.configure(text = message)
     for i in range(5):
         oppHand[i].configure(image = deckImages[51-i])
-    print(curHand, cpuHand)
 
 # Restart the game
 
